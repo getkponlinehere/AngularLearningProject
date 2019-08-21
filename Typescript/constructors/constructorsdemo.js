@@ -11,3 +11,6 @@ var A = /** @class */ (function () {
 var obj = new A(1, 3);
 var obj1 = new A();
 obj.draw();
+
+//Typescript doesn't support constructor overloading, but can be implement by using optional parameter declaration
+//using ? symbol after parameter name.

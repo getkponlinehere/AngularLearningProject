@@ -2,7 +2,7 @@ class A{
     x: number;
     y: number;
     
-    constructor (x?: number,y?: number){
+    constructor (x: number,y?: number){
         this.x = x;
         this.y = y;
     }
@@ -11,5 +11,5 @@ class A{
     }
 }
 let obj = new A(1,3);
-let obj1 = new A();
+let obj1 = new A(3);
 obj.draw();
